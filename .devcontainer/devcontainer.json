@@ -14,7 +14,7 @@
 			]
 		}
 	},
-  "updateContentCommand": "nix-env -f https://github.com/obsidiansystems/obelisk/archive/master.tar.gz -iA command",
+  "updateContentCommand": "nix-env -f https://github.com/obsidiansystems/obelisk/archive/v1.3.0.0.tar.gz -iA command",
   "postAttachCommand": "ob hoogle -v & ob run -v",
   "forwardPorts": [8000, 8080],
   "portsAttributes": {

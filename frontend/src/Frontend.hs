@@ -35,6 +35,8 @@ frontend = Frontend
       el "h1" $ text "Welcome to Obelisk!"
       el "p" $ text $ T.pack commonStuff
 
+      
+
       -- `prerender` and `prerender_` let you choose a widget to run on the server
       -- during prerendering and a different widget to run on the client with
       -- JavaScript. The following will generate a `blank` widget on the server and
